@@ -1,0 +1,126 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    background-image: url('https://plus.unsplash.com/premium_photo-1672281090478-9b3ad329ad88?q=80&w=2005&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+ 
+   nav {
+  background-image: linear-gradient(105deg, #6995c2 39%, #23313f 96%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.logo-img {
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+    nav ul {
+      font-size: 1.2rem;
+        list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #18bc9c;
+    }
+nav li:hover{
+  transform: scale(1.1);
+
+    } 
+  
+    .hero {
+
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    color: white;
+      text-shadow: 1px 1px 4px #000;
+    
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding: 2rem;
+      width: 100%;
+      max-width: 1800px;
+      margin: auto;
+    }
+
+    .hold-box {
+      display: flex;
+      background-color: rgba(204, 203, 203, 0.9);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.9);
+      transition: transform 0.3s;
+    }
+
+    .hold-box:hover {
+      transform: scale(1.02);
+    }
+
+    .hold-box img {
+      width: 45%;
+      object-fit: cover;
+      height: 100%;
+    }
+
+    .hold-content {
+      padding: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 55%;
+    }
+
+    .hold-content h2 {
+      margin-bottom: 0.8rem;
+     color: white;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .hold-content p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #23313f;
+  color: white;
+  margin-top: 3rem;
+}

@@ -1,0 +1,132 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    background-image: url('https://images.pexels.com/photos/5384301/pexels-photo-5384301.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+ 
+   nav {
+  background-image: linear-gradient(105deg, #6995c2 39%, #23313f 96%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.logo-img {
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+    nav ul {
+      font-size: 1.2rem;
+        list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #18bc9c;
+    }
+nav li:hover{
+  transform: scale(1.1);
+
+    } 
+  
+    .hero {
+
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  color: white;
+      text-shadow: 1px 1px 4px #000;
+    
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .content {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .content h2 {
+   color: white;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .content p {
+      line-height: 1.6;
+    }
+
+   .gear-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.gear-item {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gear-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.gear-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.gear-item h3 {
+  margin-top: 0.5rem;
+  color: #2c3e50;
+}
+
+.gear-item p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.4;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #23313f;
+  color: white;
+  margin-top: 3rem;
+}
